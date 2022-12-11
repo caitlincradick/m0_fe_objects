@@ -5,22 +5,22 @@
 // the desired result. To check your work, run this
 // file in your Terminal.
 
-var foods = {
-  apples: 23, 
-  grapes: 507, 
-  eggs: 48
-};
-Object.keys(foods);
-console.log (Object.keys(foods));
+// var foods = {
+//   apples: 23, 
+//   grapes: 507, 
+//   eggs: 48
+// };
+// Object.keys(foods);
+// console.log (Object.keys(foods));
 
-Object.values(foods); 
-console.log(Object.values(foods));
+// Object.values(foods); 
+// console.log(Object.values(foods));
 
-foods.grapes
-console.log(foods.grapes);
+// foods.grapes
+// console.log(foods.grapes);
 
-foods.oranges = 2
-console.log(Object.keys(foods));
+// foods.oranges = 2
+// console.log(Object.keys(foods));
 
 // #-------------------
 // // Part 2: Email
@@ -28,22 +28,27 @@ console.log(Object.keys(foods));
 
 
 // Think about all the pieces of information associated with one single email in your inbox.
-// It has a sender, a subject, ...
+// It has a sender, a subject, body, time stamp, signature
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
-// Write code that logs your email object to the terminal.
+var emailComponents = {
+  sender: "turing@turing.edu",
+  subject: "FE",
+  body: "Welcome to Turing",
+  timeStamp: "12:00 pm - 11 Dec 2022", 
+  signature: "Turing"
+};
 
+Object(emailComponents); 
+console.log(emailComponents);
 
-// Write code that logs all of the 'keys' of the email object 
-// you created above:
-// YOUR CODE HERE
+Object.keys(emailComponents);
+console.log (Object.keys(emailComponents));
 
-// Write code that logs all of the 'values' of the email object 
-// you created above:
-// YOUR CODE HERE
-
+Object.values(emailComponents); 
+console.log(Object.values(emailComponents));
 
 // #-------------------
 // // Part 3: Many Emails - CHALLENGE!
