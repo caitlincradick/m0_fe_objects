@@ -9,9 +9,6 @@ var person = {
   weight: "160 lbs" 
 };
 
-
-
-
 var post = { 
   imageSrc: "./images/beach.png",
   caption: "At the beach with my besties", 
@@ -19,7 +16,6 @@ var post = {
   number_likes: 0,
 comments: [] 
 };
-
 
 var post2 = {
   imageSrc: "./images/holiday-party.png",
